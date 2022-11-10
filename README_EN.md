@@ -1,4 +1,4 @@
-### R-Editor(rhapsody-editor)
+### rhapsody-editor
 
 #### A rich text editor based on Vue's mixed structured data
 

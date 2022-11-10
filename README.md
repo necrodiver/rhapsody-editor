@@ -1,4 +1,4 @@
-### R-Editor(rhapsody-editor)
+### rhapsody-editor
 
 #### 基于Vue3混合结构化数据的富文本编辑器
 
@@ -28,14 +28,14 @@ No English Explain,sorry
    局部引用，在setup中直接引用即可：
 
    ```javascript
-   import { REditor } from 'r-editor';
+   import { REditor } from 'rhapsody-editor';
    ```
 
    全局引用：
 
    ```javascript
    // 全局引用方式参考下方use(REditor)
-   import REditor from 'r-editor';
+   import REditor from 'rhapsody-editor';
    createApp(App).use(REditor).mount('#app');  
    ```
 3. 参数配置，如果想看看效果可运行当前项目来启动example的示例，其内部App.vue将会有配置参考，
@@ -83,8 +83,8 @@ No English Explain,sorry
 </template>
 <script setup>
 import { ref, nextTick } from 'vue';
-import 'r-editor/lib/style.css';
-import { REditor } from "r-editor";
+import 'rhapsody-editor/lib/style.css';
+import { REditor } from "rhapsody-editor";
 import baseData from "@/test-data/base.json";
 
 const editorRef = ref(null);
