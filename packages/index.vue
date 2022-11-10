@@ -103,7 +103,6 @@ const selectComponent = val => {
 };
 
 const setBack = markId => {
-    console.log('触发setBack-markId', markId);
     structurationData(markId, true);
 };
 
@@ -376,7 +375,6 @@ const listenerReportData = (isBind = true) => {
         if (keyMarkRef.value.atwho) {
             return;
         }
-        console.log('compositionstart', e);
         isInput = true;
     };
     const inputOperation = () => {
@@ -384,12 +382,6 @@ const listenerReportData = (isBind = true) => {
             if (keyMarkRef.value.atwho) {
                 return;
             }
-            console.log(
-                'input isInput isAddComponent',
-                e,
-                isInput,
-                isAddComponent
-            );
             if (!isInput && !isAddComponent) {
                 pushHashStack();
             }
@@ -403,7 +395,6 @@ const listenerReportData = (isBind = true) => {
             if (keyMarkRef.value.atwho) {
                 return;
             }
-            console.log('compositionend', e);
             isInput = false;
             pushHashStack();
         }, inputRecordInterval);
