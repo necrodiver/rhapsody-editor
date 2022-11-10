@@ -1,7 +1,7 @@
 {
   "name": "rhapsody-editor",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "/lib/r-editor.mjs",
   "keywords": [
     "mixed",
