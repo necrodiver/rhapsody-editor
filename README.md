@@ -21,7 +21,7 @@ No English Explain,sorry
 1. 开始，请运行代码安装此插件：
 
    ```
-   npm i r-editor -S
+   npm i rhapsody-editor -S
    ```
 2. 然后进行引用：
 
