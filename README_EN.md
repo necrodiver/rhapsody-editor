@@ -1,6 +1,6 @@
 ### rhapsody-editor
 
-#### A rich text editor based on Vue's mixed structured data
+#### A rich text editor based on Vue3 mixed structured data
 
 ---
 
