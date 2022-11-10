@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "r-icon"; /* Project id 3509187 */
+  src: url('icon.woff2?t=1657261750499') format('woff2'),
+       url('icon.woff?t=1657261750499') format('woff'),
+       url('icon.ttf?t=1657261750499') format('truetype');
+}
+
+.r-icon {
+  font-family: "r-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fontsize:before {
+  content: "\eaef";
+}
+
+.icon-strong:before {
+  content: "\ec83";
+}
+
+.icon-italics:before {
+  content: "\ec85";
+}
+
+.icon-left:before {
+  content: "\e636";
+}
+
+.icon-right:before {
+  content: "\e637";
+}
+
+.icon-center:before {
+  content: "\e638";
+}
+
