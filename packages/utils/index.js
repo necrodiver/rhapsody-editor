@@ -85,7 +85,7 @@ function transformStyle(val) {
 }
 
 /**
- *
+ * 节流函数
  * @param {Function} fn 方法
  * @param {Number} timeSpan 延迟时间
  * @returns

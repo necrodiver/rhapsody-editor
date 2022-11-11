@@ -310,8 +310,6 @@ const structurationData = async (markId, isAdd = false) => {
             historyStack.splice(0, historyStack.length - historyStackLength);
         }
         stackIndex = historyStack.length - 1;
-    } else {
-        return;
     }
     editorData.value = [];
     await nextTick();
