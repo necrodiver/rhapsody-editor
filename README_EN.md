@@ -4,4 +4,4 @@
 
 ---
 
-No English explain, i'am so sorry，[look chinese explain(请查看中文说明)](README.md)
+No English explain, i'am so sorry，[look chinese explain(请查看中文说明)](./README.md)
