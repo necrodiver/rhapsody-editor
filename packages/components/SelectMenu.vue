@@ -57,39 +57,39 @@ const menuItems = ref([
             }
         ]
     },
-    {
-        title: '左对齐',
-        class: 'icon-left',
-        type: 'button',
-        styles: [
-            {
-                key: 'text-align',
-                value: 'left'
-            }
-        ]
-    },
-    {
-        title: '居中',
-        class: 'icon-center',
-        type: 'button',
-        styles: [
-            {
-                key: 'text-align',
-                value: 'center'
-            }
-        ]
-    },
-    {
-        title: '右对齐',
-        class: 'icon-right',
-        type: 'button',
-        styles: [
-            {
-                key: 'text-align',
-                value: 'right'
-            }
-        ]
-    },
+    // {
+    //     title: '左对齐',
+    //     class: 'icon-left',
+    //     type: 'button',
+    //     styles: [
+    //         {
+    //             key: 'text-align',
+    //             value: 'left'
+    //         }
+    //     ]
+    // },
+    // {
+    //     title: '居中',
+    //     class: 'icon-center',
+    //     type: 'button',
+    //     styles: [
+    //         {
+    //             key: 'text-align',
+    //             value: 'center'
+    //         }
+    //     ]
+    // },
+    // {
+    //     title: '右对齐',
+    //     class: 'icon-right',
+    //     type: 'button',
+    //     styles: [
+    //         {
+    //             key: 'text-align',
+    //             value: 'right'
+    //         }
+    //     ]
+    // },
     {
         title: '字体大小',
         class: 'icon-fontsize x2',
@@ -414,7 +414,7 @@ onBeforeUnmount(() => {
 <style lang="sass" scoped>
 .r-select-menu
     position: absolute
-    width: 252px
+    // width: 252px
     height: 36px
     border-radius: 6px
     background-color: #fff
