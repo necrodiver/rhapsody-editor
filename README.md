@@ -58,7 +58,7 @@ No English Explain,sorry
    | baseData            | Object | 是       | json格式的数据，用于展示初始化之后的基本内容(计划参数)                                                                                                   |
    | data                | Object | 是       | json格式的数据，用于展示初始化之后的内容                                                                                                                 |
    | components          | Array  | 是       | 需要引用的编辑组件，也就是使用'#'号选择的内容，是一个列表，<br />后边将列出components的配置内容                                                          |
-   | historyStackLength  | Number | 否       | 历史栈的长度，默认20，解释：比如如果设置为10，<br />那么在编辑时，操作20次后可回退到最初位置，但是<br />如果操作了21次，将只能回退20次，而不能回退到最初 |
+   | historyStackLength  | Number | 否       | 历史栈的长度，默认20，解释：比如如果设置为20，<br />那么在编辑时，操作20次后可回退到最初位置，但是<br />如果操作了21次，将只能回退20次，而不能回退到最初 |
    | inputRecordInterval | Number | 否       | 输入内容节流时间，用于控制历史栈存储，默认300ms<br />，300ms内连续输入的内容为一个历史栈                                                                 |
 
    下方将列出components中的参数及说明：
@@ -126,6 +126,7 @@ span(v-else data-type="editor-input", contenteditable='true', :data-value="input
 <script setup>
 import { ref } from 'vue';
 import { isType, transformStyle } from '../../utils';
+//- 4
 const outData = defineProps({
     openEdit: {
         type: Boolean,
