@@ -34,14 +34,16 @@ No English Explain,sorry
    局部引用，在setup中直接引用即可：
 
    ```javascript
-   import { REditor } from 'rhapsody-editor';
+   import { REditor } from 'rhapsody-editor';  
+   import "rhapsody-editor/lib/style.css";  
    ```
 
    全局引用：
 
    ```javascript
    // 全局引用方式参考下方use(REditor)
-   import REditor from 'rhapsody-editor';
+   import REditor from 'rhapsody-editor';  
+   import "rhapsody-editor/lib/style.css";  
    createApp(App).use(REditor).mount('#app');  
    ```
 3. 参数配置，如果想看看效果可运行当前项目来启动example的示例，其内部App.vue将会有配置参考，
